@@ -54,6 +54,7 @@ fn get_mine_count(minefield: &[&str], cell_row: usize, cell_col: usize) -> Strin
             }
         }
     }
+
     if mines_count != 0 {
         format!("{}", mines_count)
     } else {
